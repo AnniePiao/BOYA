@@ -1,0 +1,86 @@
+a{
+  text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.inner_c {
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    /* background: green; */
+}
+.header {
+    font-size: 14px;
+    background: #191d3a;
+    height: 54px;
+
+}
+.header .inner_c .logo {
+    width: 200px;
+    height: 100%;
+    float: left;
+}
+.header .inner_c .menu {
+    width: 605px;
+
+    height: 100%;
+    float: left;
+}
+.header .inner_c .join_us {
+    width: 167px;
+    height: 100%;
+    float: right;
+}
+
+.blank {
+    height: 50px;
+}
+.game {
+    height: 200px;
+}
+
+.line {
+    height: 80px;
+    position: relative;
+}
+.line .inner_c{
+  width: 1000px;
+    position: relative;
+  overflow: hidden;
+
+}
+.content {
+    height: 367px;
+    background-color: red;
+    background-image: url(../imgs/blankc.jpg);
+}
+
+.content .inner_c{
+  overflow: hidden;
+  height: 310px;
+  width: 1000px;
+}
+
+
+.footer {
+    height: 90px;
+    background: #191d3a;
+}
+.h30{
+  height: 30px;
+  width: 100%;
+}
+.h20{
+  height: 20px;
+  width: 100%;
+}
+.h25{
+  height: 25px;
+  width: 100%;
+}
+.w16{
+  height: 100%;
+  width: 16px;
+  float: left;
+}

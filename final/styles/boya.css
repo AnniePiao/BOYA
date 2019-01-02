@@ -1,0 +1,422 @@
+
+                            /* header */
+
+.header .inner_c .logo img{
+  margin: 10px 30px 5px 16px;
+  height: 33px;
+}
+.header .inner_c .menu ul{
+  overflow: hidden;
+}
+.header .inner_c .menu ul li{
+  float: left;
+  width: 84px;
+  height: 100%;
+}
+.header .inner_c .menu ul li a.current{
+  background-color: #252947;
+  color: white;
+}
+.header .inner_c .menu ul li a{
+  display: block;
+  height: 54px;
+  text-align: center;
+  line-height: 54px;
+  color: grey;
+}
+.header .inner_c .menu ul li a:hover{
+  color: white;
+}
+.header .inner_c .menu ul li a.last{
+  border: none;
+}
+.header .inner_c .menu .join_us{
+  overflow: hidden;
+}
+.header .inner_c .join_us .join_us_box{
+  float: left;
+  margin: 6.5px 0;
+  width: 100px;
+  height: 37px;
+}
+.header .inner_c .join_us .join_us_box a{
+  height: 37px;
+  line-height: 37px;
+  background-color: #60b47a;
+  display: block;
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+  border:1px solid #60b47a;
+  border-radius: 8%;
+}
+.header .inner_c .join_us .join_us_box a:hover{
+  background-color: #33cc33;
+}
+
+
+                        /*  bannner part */
+.banner {
+  height: 463px;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+}
+.banner img{
+  height: 100%;
+  left: 65%;
+  margin-left: -960px;
+  position: absolute;
+}
+.banner .dots{
+  height: 15px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 20px;
+  z-index: 9999;
+
+}
+.banner .dots ul{
+  height: 100%;
+  width: 116px;
+  overflow: hidden;
+  margin-left: 420px;
+
+}
+.banner .dots ul li{
+  width: 13px;
+  height: 15px;
+  margin-left: 16px;
+  float: left;
+  background-image: url(../imgs/icons.png);
+
+}
+.banner .dots ul li.current_dots{
+  background-image: url(../imgs/icons.png);
+  background-position:-13px 0;
+}
+.banner .dots ul li a{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+                        /* four game parts  */
+.game .inner_c ul{
+  overflow: hidden;
+
+}
+.game .inner_c ul li {
+  float: left;
+  width: 218px;
+  height: 200px;
+  margin-right: 42px;
+}
+
+.game .inner_c ul li.last{
+  float: right;
+  margin-right: 0px;
+}
+
+.game .inner_c ul li a{
+  display: block;
+  height: 200px;
+  position: relative;
+}
+.game .inner_c ul li a:hover{
+  background-color: #30bd72;
+  color: white;
+}
+.game .inner_c ul li a img{
+  height: 132px;
+  width: 100%;
+}
+
+.game .inner_c ul li a p{
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+}
+.game .inner_c ul li a p:hover{
+  color: white;
+}
+.game .inner_c ul li a div.inner_box{
+  width: 147px;
+  height: 15px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+.game .inner_c ul li a div.inner_box span{
+  height: 15px;
+  line-height: 15px;
+  padding-right: 18px;
+  font-size: 12px;
+  background-image: url(../imgs/arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #30bd72;
+}
+.game .inner_c ul li a div.inner_box span:hover{
+  background-image: url(../imgs/arrow2.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+                          /* line across part */
+.line .inner_c div.line_cross1{
+  height: 15px;
+  width: 434px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-bottom: 1px solid #e4e5e9;
+}
+.line .inner_c div.line_cross2{
+  height: 15px;
+  width: 434px;
+  position: absolute;
+  top: 25px;
+  right: 0;
+  border-bottom: 1px solid #e4e5e9;
+}
+.line .inner_c ul{
+  overflow: hidden;
+  float: left;
+  width: 100px;
+  height: 15px;
+  margin: 32.5px 434px;
+
+}
+.line .inner_c ul li{
+  background-image: url(../imgs/icons.png);
+  background-repeat: no-repeat;
+  background-position: 0 -15px;
+  height: 15px;
+  float: left;
+  width: 13px;
+  margin-left:16px;
+}
+.line .inner_c ul li a{
+  display: block;
+  height: 15px;
+  width: 100%;
+}
+.line .inner_c ul li.current_point{
+  background-position: -13px -15px;
+  margin-left: 0;
+}
+
+                /* content of news and jobs part */
+    /* news part */
+.content .inner_c .news {
+    width: 500px;
+    height: 100%;
+    float: left;
+    background-image: url(../imgs/news_bg.jpg);
+}
+.content .inner_c .news .news_title{
+  width: 500px;
+  height: 120px;
+  position: relative;
+
+}
+.content .inner_c .news .news_title span.more_box{
+  display: block;
+  width: 68px;
+  height: 27px;
+  position: absolute;
+  top: 38px;
+  left: 220px;
+  background-color: pink;
+  border-radius: 13%;
+  background-color: white;
+  border: 1px solid #30bd72;
+
+}
+.content .inner_c .news .news_title span.more_box {
+  font-size: 12px;
+  position: absolute;
+  color: #30bd72;
+
+}
+.content .inner_c .news .news_title span.more_box:hover{
+  background-color: #30bd72;
+  color: white;
+}
+.content .inner_c .news .news_title span.more_box span.more{
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+.content .inner_c .news .news_title span.more_box span.plus{
+  position: absolute;
+  top: 0;
+  left: 46px;
+  line-height: 10px;
+}
+
+.content .inner_c .news .news_body{
+  width: 500px;
+  height: 190px;
+}
+.content .inner_c .news .news_body ul{
+  overflow: hidden;
+  float: right;
+  height: 100%;
+  width: 500px;
+}
+.content .inner_c .news .news_body ul li{
+  width: 470px;
+  height: 50px;
+  margin-right: 30px;
+  margin-left: 20px;
+  line-height: 50px;
+  border-bottom: 1px solid #e4e5e9;
+
+}
+.content .inner_c .news .news_body ul li span{
+  float: left;
+  width: 57px;
+  height: 100%;
+  font-size: 12px;
+  color: #343434;
+
+}
+.content .inner_c .news .news_body ul li a{
+  float: left;
+  width: 397px;
+  height: 100%;
+  font-size: 14px;
+  color: #343434;
+}
+.content .inner_c .news .news_body ul li a:hover{
+    color:#33b972;
+}
+.content .inner_c .news .news_body ul li.first{
+  overflow: hidden;
+  height: 40px;
+  width: 470px;
+  margin-right: 30px;
+  border-bottom: 1px solid #e4e5e9;
+  line-height: 40px;
+}
+
+.content .inner_c .news .news_body ul li.first span{
+  float: left;
+  width: 57px;
+  height: 100%;
+  font-size: 12px;
+  color: #343434;
+}
+.content .inner_c .news .news_body ul li.first a{
+  float: left;
+  width: 397px;
+  height: 100%;
+  font-size: 14px;
+  color: #343434;
+}
+.content .inner_c .news .news_body ul li.first a:hover{
+  color:#33b972;
+}
+    /* jobs part */
+.content .inner_c .job {
+    width: 500px;
+    float: right;
+    height: 100%;
+    background-image: url(../imgs/jobs_bg.jpg);
+}
+.content .inner_c .job .job_content{
+  width: 309px;
+  height: 100%;
+  margin-left: 20px;
+
+}
+.content .inner_c .job .job_content .job_title{
+  height: 58px;
+  width: 100%;
+  position: relative;
+}
+.content .inner_c .job .job_content .job_title h2{
+  padding-top: 12px;
+  font-size: 28px;
+  font-weight: bolder;
+  width: 151px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 60px;
+  color: white;
+
+}
+.content .inner_c .job .job_content .job_title span.h4span{
+  font-size: 12px;
+  font-weight: lighter;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 60px;
+  color: white;
+
+}
+.content .inner_c .job .job_content .job_title span.job_more{
+  float: left;
+  display: block;
+  width: 68px;
+  height: 27px;
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  border-radius: 13%;
+  background-color: #30bd72;
+  border: 1px solid white;
+    color: white;
+
+}
+.content .inner_c .job .job_content .job_title span:hover{
+  background-color: white;
+  color: #30bd72;
+}
+.content .inner_c .job .job_content .job_title .job_more span.more{
+  font-size: 12px;
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+.content .inner_c .job .job_content .job_title .job_more span.plus{
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 46px;
+  line-height: 10px;
+
+}
+.content .inner_c .job .job_content .job_body{
+  color: white;
+  width: 100%;
+  height: 177px;
+}
+.content .inner_c .job .job_content .job_body h3{
+  height: 23px;
+  line-height: 23px;
+  font-size: 14px;
+  font-weight: bolder;
+}
+.content .inner_c .job .job_content .job_body ul{
+
+}
+.content .inner_c .job .job_content .job_body ul li{
+  height: 38.5px;
+  line-height: 38.5px;
+  font-size: 14px;
+  font-weight: lighter;
+  width: 100%;
+  border-bottom: 1px solid #6fdea3;
+}
+.content .inner_c .job .job_content .job_body ul li a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
