@@ -1,0 +1,240 @@
+
+
+.banner_game{
+  height: 254px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.banner_game img{
+  position: absolute;
+  left: 50%;
+  margin-left: -840px;
+
+}
+.inner_game{
+  width: 1004px;
+  margin: 0 auto;
+}
+.inner_game .header_game{
+  width: 100%;
+  height: 72px;
+  overflow: hidden;
+  border-bottom: 1px solid #c7d6e5;
+}
+.inner_game .header_game h2{
+  background-image: image();
+  background-position: -200px -20px;
+  float: left;
+  padding-left: 20px;
+  line-height: 26px;
+  font-size: 19px;
+  height: 26px;
+  width: 118px;
+}
+.inner_game .header_game .path{
+  float: right;
+  height: 26px;
+  width: 330px;
+
+}
+.inner_game .header_game .path ul{
+  width: 330px;
+  overflow: hidden;
+}
+.inner_game .header_game .path ul li{
+  width: 73.5px;
+  height: 26px;
+  line-height: 26px;
+  float: right;
+  font-size: 14px;
+}
+.inner_game .header_game .path ul li.iconpath{
+  width: 36px;
+  float: left;
+}
+/* main */
+.inner_game .main_game{
+  overflow: hidden;
+
+
+}
+
+/* tool part */
+.inner_game .main_game .main_game_tools{
+
+  width: 196px;
+  float: left;
+
+}
+.inner_game .main_game .main_game_tools ul{
+
+}
+.inner_game .main_game .main_game_tools ul li{
+  width: 196px;
+  height: 80px;
+  border-bottom: 1px solid #cad6e1;
+}
+.inner_game .main_game .main_game_tools ul li.current{
+
+}
+.inner_game .main_game .main_game_tools ul li a{
+  display:block;
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+}
+.inner_game .main_game .main_game_tools ul li.current a{
+  background-image: url(../imgs/imgs_game/arrow.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 196px;
+  height: 80px;
+  background-position: right center;
+
+
+}
+
+.inner_game .main_game .main_game_tools ul li a .icon{
+  width: 50px;
+  height: 44px;
+  background-image: url(../imgs/imgs_game/tadejingling.png);
+  background-position: 162px 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+}
+.inner_game .main_game .main_game_tools ul li a .icon.iconbg1{
+  background-position: 6px  -100px;
+}
+.inner_game .main_game .main_game_tools ul li a:hover .icon.iconbg1{
+  background-position: -114px  -100px;
+}
+.inner_game .main_game .main_game_tools ul li a .icon.iconbg2{
+  background-position: 7px -200px;
+}
+.inner_game .main_game .main_game_tools ul li a:hover .icon.iconbg2{
+background-position: -114px -200px;
+}
+.inner_game .main_game .main_game_tools ul li a .icon.iconbg3{
+  background-position: 6px -300px;
+}
+.inner_game .main_game .main_game_tools ul li a:hover .icon.iconbg3{
+    background-position: -114px -300px;
+}
+.inner_game .main_game .main_game_tools ul li a .icon.iconbg4{
+  background-image: url(../imgs/imgs_game/tadejingling.png);
+  background-position: 10px -600px;
+  background-repeat: no-repeat;
+}
+.inner_game .main_game .main_game_tools ul li a:hover .icon.iconbg4{
+  background-position: -33px -600px;
+}
+.inner_game .main_game .main_game_tools ul li a span{
+  padding-left: 58px;
+  display: block;
+  line-height: 80px;
+  color: #44487d;
+}
+.inner_game .main_game .main_game_tools ul li a:hover span{
+  color: #38b774;
+}
+.inner_game .main_game .main_game_tools ul li.current span{
+  color: #38b774;
+}
+
+/* content part */
+.inner_game .main_game .main_game_contents{
+  float: right;
+  width: 758px;
+}
+.inner_game .main_game .main_game_contents ul{
+  overflow: hidden;
+
+}
+.inner_game .main_game .main_game_contents ul li{
+  background-image: url(../imgs/imgs_game/p1.png);
+  background-position: 13px 60px;
+  background-repeat: no-repeat;
+  float: left;
+  width: 328px;
+  height: 288px;
+  padding: 20px 13px;
+  position: relative;
+  border: 1px solid #c7d6e5;
+  border-radius: 13px;
+
+}
+
+.inner_game .main_game .main_game_contents ul li h3 {
+  width: 143px;
+  height: 24px;
+  line-height: 24px;
+  float: left;
+  padding-right: 10px;
+  text-align: right;
+}
+.inner_game .main_game .main_game_contents ul li span{
+  display: block;
+  float: left;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+  color: #008000;
+}
+.inner_game .main_game .main_game_contents ul li .tags{
+  overflow: hidden;
+  position: absolute;
+  bottom: 20px;
+  width: 331px;
+  /* padding-top: 250px; */
+
+}
+.inner_game .main_game .main_game_contents ul li .tags a{
+  height: 35px;
+  width: 165.5px;
+  display: block;
+  float: left;
+}
+
+.inner_game .main_game .main_game_contents ul li .tags a.app{
+
+}
+.inner_game .main_game .main_game_contents ul li .tags a.code{
+
+}
+.inner_game .main_game .main_game_contents ul li .tags a span{
+  display: block;
+  height: 35px;
+  font-size: 16px;
+
+}
+.inner_game .main_game .main_game_contents ul li .tags a:hover span{
+  color: #008000;
+
+}
+.inner_game .main_game .main_game_contents ul li .tags a.app span{
+  padding-left: 50px;
+  width: 125.5px;
+}
+.inner_game .main_game .main_game_contents ul li .tags a.code span{
+  width: 100px;
+  padding-left: 65px;
+  border-left: 1px solid #c7d6e5;
+}
+.footer_above{
+  height: 122px;
+  width: 100%;
+  background: #252947;
+
+}
+.footer_above .inner_c span{
+  color: #5e6173;
+  font-size: 12px;
+}
+
+.footer_above .inner_c span.middle{
+  height: 35px;
+  line-height: 35px;
+}

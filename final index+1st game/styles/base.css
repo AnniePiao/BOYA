@@ -1,0 +1,40 @@
+
+                /* width */
+.w16{
+  height: 100%;
+  width: 16px;
+  float: left;
+}
+.w44{
+  width: 44px;
+  height: 328px;
+  float: left;
+}
+                /* height */
+.h30{
+  height: 30px;
+  width: 100%;
+}
+.h20{
+  height: 20px;
+  width: 100%;
+}
+.h25{
+  height: 25px;
+  width: 100%;
+}
+
+.h26{
+  height: 26px;
+  width: 100%;
+}
+.h30{
+  height: 30px;
+  width: 100%;
+}
+.h40{
+  height: 40px;
+  width: 100%;
+  float: left;
+
+}
